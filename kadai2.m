@@ -5,7 +5,7 @@
 
 clear; % 変数のオールクリア
 
-ORG=imread('Lenna.png'); % 原画像の入力
+ORG=imread('橋本環奈.png'); % 原画像の入力
 ORG = rgb2gray(ORG); colormap(gray); colorbar;
 imagesc(ORG); axis image; % 画像の表示
 pause; % 一時停止
@@ -32,7 +32,7 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 標準画像「橋本環奈」を原画像とする．この画像は縦512画像，横512画素による正方形のディジタルカラー画像である．
 
-ORG=imread('橋本環奈.jpg_small'); % 原画像の入力  
+ORG=imread('橋本環奈.jpg'); % 原画像の入力  
 imagesc(ORG); axis image; % 画像の表示
 
 によって，原画像を読み込み，表示した結果を図１に示す．
