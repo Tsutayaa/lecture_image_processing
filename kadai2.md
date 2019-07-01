@@ -45,7 +45,7 @@ IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 
 このようにサンプリング幅が大きくなると，モザイク状のサンプリング歪みが発生する．
 % 課題２　階調数と疑似輪郭
-% ２階調，４階調，８階調の画像を生成せよ．
+% ２階調，４階調，８の画像を生成せよ．
 % 下記はサンプルプログラムである．
 % 課題作成にあたっては「Lenna」以外の画像を用いよ．
 
@@ -69,9 +69,13 @@ IMG = IMG0 + IMG1 + IMG2;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
 % 8階調画像の生成
-IMG0 = ORG>64;
-IMG1 = ORG>128;
-IMG2 = ORG>192;
+IMG0 = ORG>32;
+IMG1 = ORG>64;
+IMG2 = ORG>96;
+IMG3 = ORG>128
+IMG4 = ORG>160
+IMG5 = ORG>192;
+IMG6 = ORG>224
 IMG = IMG0 + IMG1 + IMG2;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 % ８階調については，各自検討してください．
