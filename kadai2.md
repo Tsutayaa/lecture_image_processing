@@ -18,7 +18,7 @@ IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 
 1/2サンプリングの結果を図２に示す．
 
-![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai1.2.jpg
+![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai2.1.jpg
 )  
 図2 1/2サンプリング
 
@@ -29,7 +29,7 @@ IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 
 とする．1/4サンプリングの結果を図３に示す．
 
-![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai1.3.jpg
+![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai2.2.jpg
 )  
 図3 1/4サンプリング
 
@@ -40,17 +40,8 @@ IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 
 を繰り返す．サンプリングの結果を図４～６に示す．
 
-![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai1.4.jpg
+![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai2.3.jpg
 )  
-図4 1/8サンプリング
-
-![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai1.5.jpg
-)  
-図5 1/16サンプリング
-
-![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai1.6.jpg
-)  
-図6 1/32サンプリング
 
 このようにサンプリング幅が大きくなると，モザイク状のサンプリング歪みが発生する．
 % 課題２　階調数と疑似輪郭
