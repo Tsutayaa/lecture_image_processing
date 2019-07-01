@@ -76,7 +76,7 @@ IMG3 = ORG>128;
 IMG4 = ORG>160;
 IMG5 = ORG>192;
 IMG6 = ORG>224;
-IMG = IMG0 + IMG1 + IMG2 + IMG3 + IMG4　+　IMG5 + IMG6；
+IMG = IMG0 + IMG1 + IMG2 + IMG3 + IMG4 + IMG5 + IMG6;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 % ８階調については，各自検討してください．
 
