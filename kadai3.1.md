@@ -1,14 +1,3 @@
-# 課題１レポート
-
-標準画像「橋本環奈」を原画像とする．この画像は縦680画像，横453画素のディジタルカラー画像である．
-
-ORG=imread('橋本環奈.jpg'); % 原画像の入力  
-imagesc(ORG); axis image; % 画像の表示
-
-によって，原画像を読み込み，表示した結果を図１に示す．
-
-![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai1.1.jpg
-)  
 % 課題３　閾値処理
 % 閾値を4パターン設定し,閾値処理た画像を示せ．
 % 下記はサンプルプログラムである．
