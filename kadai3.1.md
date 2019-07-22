@@ -1,3 +1,8 @@
+https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai3.1.jpg
+https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai3.2.jpg
+https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai3.3.jpg
+https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai3.4.jpg
+
 % 課題３　閾値処理
 % 閾値を4パターン設定し,閾値処理た画像を示せ．
 % 下記はサンプルプログラムである．
