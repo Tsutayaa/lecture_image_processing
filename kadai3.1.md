@@ -37,7 +37,7 @@ pause;
 
 とする．4階調の結果を図３に示す．
 
-![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai3.3.jp)  
+![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai3.3.jpg)  
 図3　4階調画像
 
 同様に原画像を8階調にするには，以下のプログラムを用いる
