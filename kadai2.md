@@ -15,7 +15,7 @@ imagesc(ORG); axis image; % 画像の表示
 IMG = imresize(ORG,0.5); % 画像の縮小  
 IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 
-1/2サンプリングの結果を図２に示す．
+2階調の結果を図２に示す．
 
 ![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai2.2.jpg)
 図2 2階調画像
@@ -25,17 +25,16 @@ IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 IMG = imresize(ORG,0.5); % 画像の縮小  
 IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 
-とする．1/4サンプリングの結果を図３に示す．
+とする．4階調の結果を図３に示す．
 
 ![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai2.3.jpg)  
 図3　4階調画像
 
-1/8から1/32サンプリングは，
 
 IMG = imresize(ORG,0.5); % 画像の縮小  
 IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 
-を繰り返す．サンプリングの結果を図４～６に示す．
+とする．8階調の結果を図4に示す．
 
 ![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai2.4.jpg)
 図5　８階調画像
