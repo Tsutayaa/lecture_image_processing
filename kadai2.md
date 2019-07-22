@@ -15,7 +15,10 @@ pause; % 一時停止
 ![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai2.1.jpg) 
 図1 原画像
 
-原画像を1/2サンプリングするには，画像を1/2倍に縮小した後，2倍に拡大すればよい．なお，拡大する際には，単純補間するために「box」オプションを設定する．
+原画像を2階調にするには，画像を1/2倍に縮小した後，2倍に拡大すればよい．なお，拡大する際には，単純補間するために「box」オプションを設定する．
+IMG = ORG>128;
+imagesc(IMG); colormap(gray); colorbar;  axis image;
+pause;
 
 IMG = imresize(ORG,0.5); % 画像の縮小  
 IMG2 = imresize(IMG,2,'box'); % 画像の拡大
@@ -25,7 +28,7 @@ IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 ![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai2.2.jpg)
 図2 2階調画像
 
-同様に原画像を1/4サンプリングするには，画像を1/2倍に縮小した後，2倍に拡大すればよい．すなわち，
+同様に原画像を4階調にするには，画像を1/2倍に縮小した後，2倍に拡大すればよい．すなわち，
 
 IMG = imresize(ORG,0.5); % 画像の縮小  
 IMG2 = imresize(IMG,2,'box'); % 画像の拡大
@@ -43,7 +46,8 @@ IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 
 ![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai2.4.jpg)
 図5　８階調画像
-このようにサンプリング幅が大きくなると，モザイク状のサンプリング歪みが発生する．
+このように階調が高くなるにつれ，画像を表現するドットは白、薄いグレー、グレー、濃いグレー、黒という様に濃淡をより細かく設定する事が出来るようになり、滑らかな画像を表現できる様になった。
+
 % 課題２　階調数と疑似輪郭
 % ２階調，４階調，８の画像を生成せよ．
 % 下記はサンプルプログラムである．
