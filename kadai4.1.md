@@ -1,3 +1,6 @@
+# 課題4レポート
+
+標準画像「橋本環奈」を原画像とする．この画像は縦680画像，横453画素のディジタルカラー画像である．
 clear; % 変数のオールクリア
 
 ORG=imread('Lenna.png'); % 原画像の入力
@@ -12,3 +15,5 @@ pause;
 imhist(ORG); % ヒストグラムの表示
 ![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai4.2.jpg)
  図2 ヒストグラムの表示
+
+濃度の高いところにグラフの山ができていることが分かった。
