@@ -42,6 +42,14 @@ pause;
 図5　
 
 
+同様に原画像を8階調にするには，以下のプログラムを用いる
+
+とする．の結果を図4に示す．
+
+![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai3.5.jpg)
+図5　
+
+
 
 
 
