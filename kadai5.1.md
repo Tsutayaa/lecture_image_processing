@@ -18,7 +18,7 @@ imagesc(ORG); colormap(gray); colorbar;
 
 pause;
 
-
+https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai5.1.jpg
 
 H = imhist(ORG); %ヒストグラムのデータを列ベクトルEに格納
 
