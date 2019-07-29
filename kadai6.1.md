@@ -38,3 +38,4 @@ imagesc(IMG); colormap(gray); colorbar; % 画像の表示
 ![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai6.3.jpg)  
 図3　ディザ法による二値化
 
+ディザ法による二値化は通常の二値化と比べて細かく白黒に分かれている。
