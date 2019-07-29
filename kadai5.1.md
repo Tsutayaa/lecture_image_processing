@@ -1,15 +1,5 @@
 # 課題5レポート
 
-% 課題５　判別分析法
-
-% 判別分析法を用いて画像二値化せよ．
-
-% 下記はサンプルプログラムである．
-
-% 課題作成にあたっては「Lenna」以外の画像を用いよ．
-
-
-
 ORG=imread('Lenna.png'); % 原画像の入力
 
 ORG = rgb2gray(ORG); % カラー画像を白黒濃淡画像へ変換
@@ -18,7 +8,12 @@ imagesc(ORG); colormap(gray); colorbar;
 
 pause;
 
-https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai5.1.jpg
+によって，原画像を読み込み，表示した結果を図１に示す．
+
+![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai5.1.jpg)
+図１　原画像
+
+二値画像を図２に示す．
 
 H = imhist(ORG); %ヒストグラムのデータを列ベクトルEに格納
 
@@ -67,3 +62,6 @@ IMG = ORG > max_thres;
 imagesc(IMG); colormap(gray); colorbar;
 
 pause;
+
+![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai5.2.jpg)
+図2　二値画像
