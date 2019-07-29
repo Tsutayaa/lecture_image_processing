@@ -56,7 +56,7 @@ imagesc(IMG); colormap(gray); colorbar;
 ![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai3.5.jpg)
 図5　輝度値が192以上の画素を1，その他を0に変換
 
-
+画素を１にする輝度値を高くすればするほど画素が0の割合が高くなり白より黒のほうが多い色黒画像になった。
 
 
 
