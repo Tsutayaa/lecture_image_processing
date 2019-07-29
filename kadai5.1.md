@@ -13,7 +13,7 @@ pause;
 ![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai5.1.jpg)
 図１　原画像
 
-二値画像を図２に示す．
+二値の結果を図２に示す．
 
 H = imhist(ORG); %ヒストグラムのデータを列ベクトルEに格納
 
