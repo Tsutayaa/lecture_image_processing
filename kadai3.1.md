@@ -14,50 +14,33 @@ pause; % 一時停止
 ![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai3.1.jpg) 
 図1 原画像
 
-原画像を2階調にするには，以下のプログラムを用いる
-
-IMG = ORG>128;
-imagesc(IMG); colormap(gray); colorbar;  axis image;
-pause;
+原画像をにするには，以下のプログラムを用いる
 
 
-2階調の結果を図２に示す．
+
+
+の結果を図２に示す．
 
 ![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai3.2.jpg)
-図2 2階調画像
+図2 
 
-同様に原画像を4階調にするには，以下のプログラムを用いる
+同様に原画像をにするには，以下のプログラムを用いる
 
-IMG0 = ORG>64;
-IMG1 = ORG>128;
-IMG2 = ORG>192;
-IMG = IMG0 + IMG1 + IMG2;
-imagesc(IMG); colormap(gray); colorbar;  axis image;
-pause;
 
-とする．4階調の結果を図３に示す．
+
+とする．の結果を図３に示す．
 
 ![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai3.3.jpg)  
-図3　4階調画像
+図3　
 
 同様に原画像を8階調にするには，以下のプログラムを用いる
 
-IMG0 = ORG>32;
-IMG1 = ORG>64;
-IMG2 = ORG>96;
-IMG3 = ORG>128;
-IMG4 = ORG>160;
-IMG5 = ORG>192;
-IMG6 = ORG>224;
-IMG = IMG0 + IMG1 + IMG2 + IMG3 + IMG4 + IMG5 + IMG6;
-imagesc(IMG); colormap(gray); colorbar;  axis image;
-
-とする．8階調の結果を図4に示す．
+とする．の結果を図4に示す．
 
 ![原画像](https://github.com/Tsutayaa/lecture_image_processing/blob/master/image/kadai3.4.jpg)
-図5　８階調画像
+図5　
 
-このように階調が高くなるにつれ，画像を表現するドットは白、薄いグレー、グレー、濃いグレー、黒という様に濃淡をより細かく設定する事が出来るようになり、滑らかな画像を表現できる様になった。
+
 
 
 
@@ -78,13 +61,13 @@ IMG = ORG > 64; % 輝度値が64以上の画素を1，その他を0に変換
 imagesc(IMG); colormap(gray); colorbar;
 pause;
 
-IMG = ORG > 96;
+IMG = ORG > 96; % 輝度値が96以上の画素を1，その他を0に変換
 imagesc(IMG); colormap(gray); colorbar;
 pause;
 
-IMG = ORG > 128;
+IMG = ORG > 128; % 輝度値が128以上の画素を1，その他を0に変換
 imagesc(IMG); colormap(gray); colorbar;
 pause;
 
-IMG = ORG > 192;
+IMG = ORG > 192; % 輝度値が192以上の画素を1，その他を0に変換
 imagesc(IMG); colormap(gray); colorbar;
